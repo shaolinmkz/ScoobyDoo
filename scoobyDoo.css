@@ -1,0 +1,74 @@
+html, body, div, section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(238, 237, 153);
+    margin: 20px;
+    padding: 40px;
+}
+
+#strText{
+    display: block;
+    width: 400px;
+    font-size: 1.2em;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(253, 247, 204);
+}
+#clickBtn{
+    display: block;
+    font-family: sans-serif;
+    margin: 20px 0;
+    min-width: 12%;
+    padding: 10px 5px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(192, 167, 5);
+}
+#clickBtn:hover{
+    background-color: rgb(255, 187, 0);
+    border-bottom: 2.5px solid rgb(44, 23, 8);
+}
+#clickBtn:active {
+    background-color: rgb(175, 97, 41); 
+    color: white;
+}
+img {
+    float: left;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
+    margin: 145px 0 0 0;
+}
+div.container{
+    float: left;
+}
+#display{
+    font-family: Geneva;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    width: 400px;
+    text-align: center;
+    overflow: auto;
+    height: 200px;
+    border: 10px groove #ae7a00;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(26, 25, 25, 0.35),0 6px 20px 0 rgba(15, 15, 15, 0.35);
+}
+/* .clearFix:before, .clearFix:after {
+    content: "";
+    display: table;
+}
+.clearFix:after{
+    clear: both;
+} */
